@@ -108,6 +108,7 @@ def buscar(producto):
     if producto == "alto":
         productos = leer_archivo_json('productos.json')
         productos_ordenados = (productos).sorted, key = lambda x: x ["iva"], reversed = True
+        print(f"{productos_ordenados[:1]}")
     
     if producto == "bajo":
         productos = leer_archivo_json('productos.json')

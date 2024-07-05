@@ -16,10 +16,10 @@ def menu_estadisticas():
         op = globales.seleccionar_opcion(5)
 
         if op == 1:
-            globales.buscar_producto("alto")
+            globales.buscar("alto")
 
         if op == 2:
-            globales.buscar_producto("bajo")
+            globales.buscar("bajo")
 
         if op == 3:
             globales.promedio()
